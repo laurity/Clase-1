@@ -8,4 +8,5 @@ btn.addEventListener('click', fondo);
 function fondo(){
     var indice = parseInt(Math.random()*colors.length);
     body.style.backgroundColor = colors[indice];
+    console.log("El color es " + body.style.backgroundColor);
 }
