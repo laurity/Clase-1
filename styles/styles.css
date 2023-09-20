@@ -28,3 +28,6 @@ a{
 h2{
     text-transform: uppercase;
 }
+video{
+    height: 300px;
+}
